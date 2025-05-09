@@ -33,6 +33,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # A/B
 AB_OTA_UPDATER := true
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
