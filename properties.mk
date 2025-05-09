@@ -202,7 +202,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.use_hint_manager=true \
-    debug.hwui.target_cpu_time_percent=30
+    debug.hwui.target_cpu_time_percent=20
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
