@@ -241,7 +241,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.vendor.qti.sys.fw.bservice_age=5000 \
     ro.vendor.qti.sys.fw.bservice_enable=true \
-    ro.vendor.qti.sys.fw.bservice_limit=16
+    ro.vendor.qti.sys.fw.bservice_limit=12
 
 # Netflix
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -261,11 +261,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.extension_library=libqti-perfd-client.so \
-    ro.vendor.perf.scroll_opt=true
+    ro.vendor.extension_library=libqti-perfd-client.so
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.vendor.qti.sys.fw.bg_apps_limit=20
+    ro.vendor.qti.sys.fw.bg_apps_limit=17
 
 # Qualcomm System Daemon
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -335,7 +334,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.sf.early.app.duration=16500000 \
     debug.sf.earlyGl.sf.duration=13500000 \
     debug.sf.earlyGl.app.duration=21000000 \
-    debug.sf.predict_hwc_composition_strategy=0 \
     debug.sf.enable_transaction_tracing=false \
     service.sf.prime_shader_cache=0
 
